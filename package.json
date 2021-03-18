@@ -1,0 +1,21 @@
+{
+  "name": "monorepo",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "test": "lerna run test",
+    "build": "lerna run build"
+  },
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  },
+  "workspaces": {
+    "packages": [
+      "apps/*",
+      "libs/*",
+      "tools/*"
+    ],
+    "nohoist": []
+  }
+}
