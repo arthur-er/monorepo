@@ -1,0 +1,19 @@
+{
+  "name": "types",
+  "version": "0.0.1",
+  "description": "Type declarations for @monorepo packages",
+  "author": "arthur-er <arthur-er@protonmail.com>",
+  "homepage": "",
+  "license": "UNLICENSED",
+  "main": "lib/types.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  }
+}
