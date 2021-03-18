@@ -1,0 +1,6 @@
+.eslintrc.js
+apps/**/*.js
+libs/**/*.js
+tools/**/*.js
+node_modules
+**/node_modules
